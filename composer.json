@@ -1,0 +1,23 @@
+{
+    "name": "lupecat/render",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Jose Meira",
+            "email": "jose.meira@fba-consulting.com"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "5.5.9"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Lupecat\\Render\\": "src"
+        }
+    },
+    "require": {
+        "jenssegers/blade": "^1.1"
+    }
+}
